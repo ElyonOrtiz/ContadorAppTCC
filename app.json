@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/iconMore.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.elyon08.Contador"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3e2a402f-4e7a-42ac-80f9-21678f7b6be6"
+      }
     }
   }
 }
